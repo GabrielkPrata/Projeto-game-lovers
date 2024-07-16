@@ -1,0 +1,217 @@
+:root {
+    --cor0:#5C1D67;
+    --cor1:#4063F0;
+    --cor2:#6CBFFD;
+    --cor4:#312D9E;
+    --cor5:#200D23;
+}
+.conteiner{
+    width: 640px;
+            margin: auto;
+           
+         padding-bottom: 5px;
+            box-shadow: 1px 3px 8px 1px  rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #200D23;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        background-image: linear-gradient(to bottom, var(--cor5), var(--cor0));
+        
+    
+}
+
+body{
+    background-color: #CCCCCC;
+    font-family: sans-serif;
+ 
+}
+.not1{
+    padding: 0.5em;
+}
+.not2{
+  padding: 0.5em;
+}
+.tyte{
+    text-align: center;
+    color: #FFCE23;
+    font-weight: 550;
+    font-size: 25px;
+}
+.strongs{
+    padding:5px 0px 35px 0px;
+}
+.imput2{
+    width: 600px;
+            margin: auto;
+            padding: 0px 0px 15px 0px;
+            box-shadow: 1px 3px 8px 1px  rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            background-image: linear-gradient(to bottom, var(--cor0), var(--cor5));
+            background-color: var(--cor5);
+            font-size: 20px;
+            
+}
+.text-1{
+    margin: 10px 0px 0px 0px;
+    font-size: 22px;
+}
+.flex{
+    display: flex;
+    justify-content:  space-around;
+}
+
+
+
+.imput3{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    width: 90px;
+    padding: 1.2em 1.7rem 0.5em 1.7em;
+    color: white; 
+    border-width: 10px;
+    border-style: solid;  
+    border-color: #312D9E;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+.imput4{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    width: 90px;
+    padding: 1.2em 1.7rem 0.5em 1.7em;
+    color: white;
+    border-width: 10px;
+    border-style: solid;  
+    border-color: #312D9E;
+    border-radius: 8px;
+    margin: auto;
+    
+
+}
+.imput5{
+        
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+        width: 90px;
+        padding:1.2em 1.7rem 0.5em 1.7em;
+        color: white;
+        border-width: 10px;
+        border-style: solid;  
+        border-color: #312D9E;
+        border-radius: 8px;
+        text-align: center ;
+        margin: auto ;
+        
+}
+    .subtyte{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .subtytes{
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .button1{width: 70%;
+    padding: 4px 0px 9px 1px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    margin: 25px 0px 20px 0px;
+}
+
+.button2{
+    width: 70%;
+        padding: 4px 0px 9px 1px;
+        font-size: 1rem;
+        border-radius: 4px;
+        border: none;
+        background-color: #ffffff;
+        margin-top: 1.2rem;
+        cursor: pointer;
+        margin: 0px 0px 30px 0px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.534);
+    text-align: left;
+    padding: 5px ;
+}
+.votars{
+    text-align: center;
+    background-color: #200D23;
+    padding: 0.4em 0.4em;
+    font-size: 1em
+}
+.game{
+    text-align: center;
+    font-size: 13px;
+    padding: 8px 0px 4px 0px;
+}
+.simbolo{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+.simbolos{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+@media screen and (max-width: 768px ) {
+    html{
+        font-size: 13px;
+
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .imput3,.imput4,.imput5{
+        width: 80%;
+        padding: 1.8em 1.8em 0.3em;
+        box-sizing: border-box;
+        margin: auto;
+        margin-bottom: 17px;
+    }
+    .conteiner{
+        width: 85%;
+    }
+    .imput2{
+        width: 85%;
+    }
+    .button1,.button2{
+        width: 90%;
+        margin:  20px 0px 5px 0px;
+        padding: 0.8em;
+        font-size: 15px
+    }
+    .button2{
+        margin: 15px;
+    }
+
+    .votars{
+        padding: 1em;
+        margin: none;
+
+    }
+    .strongs{
+        padding: 8px 0px 15px 0px;
+    }
+    .not2{
+        padding: 3px;
+    }
+    .text-1{
+        margin: 25px 0px 0px 0px ;
+    }
+    .simbolo{
+         margin: 30px 0px 20px 0px;
+    }
+    .simbolos{
+        margin: 30px 0px 25px 0px;    
+    }
+}
